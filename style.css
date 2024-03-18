@@ -4,7 +4,18 @@ body {
     margin: 0;
     padding: 0;
   }
+  /* Fullscreen sections */
+section.fullscreen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 40px; /* Adjust padding as needed */
+    text-align: center;
+  }
   
+  /* Rest of the CSS styles remain the same */
   nav {
     display: flex;
     justify-content: space-between;
